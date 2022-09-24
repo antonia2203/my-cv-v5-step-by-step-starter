@@ -1,4 +1,6 @@
+// mobile
 .header {
+}
 
   &__camasa {
     background-color: rgba(204,0,0,0.6);
@@ -18,5 +20,24 @@
 
     display: flex;
     justify-content: center;
+    transition: 250ms;
+  }
+
+
+// tablet
+@media screen and (min-width: 1024px) {
+  .header {
+    &__title {
+      width: 768px;
+    }
+  }
+}
+
+// desktop
+@media screen and (min-width: 1440px) {
+  .header {
+    &__title {
+      width: 1200px;
+    }
   }
 }
