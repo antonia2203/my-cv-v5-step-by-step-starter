@@ -20,3 +20,21 @@
     justify-content: center;
   }
 }
+
+// tablet
+@media screen and (min-width: 1024px) {
+  .header {
+    &__title {
+      width: 768px;
+    }
+  }
+}
+
+// desktop
+@media screen and (min-width: 1440px) {
+  .header {
+    &__title {
+      width: 1200px;
+    }
+  }
+}
