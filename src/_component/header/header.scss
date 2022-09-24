@@ -1,0 +1,22 @@
+.header {
+
+  &__camasa {
+    background-color: rgba(204,0,0,0.6);
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+  }
+  &__title {
+    background-color:rgba(204,0,0,1); 
+    width: 304px;
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+    line-height: 24px;
+    // margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+  }
+}
