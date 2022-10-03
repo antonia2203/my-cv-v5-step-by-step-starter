@@ -1,0 +1,367 @@
+{
+  "welcome": {
+    "sectionTitle": "Welcome to my CV",
+    "nameTitle": "Mihai Antonia-Maria",
+    "jobTitle": "Aspiring web Developer",
+    "moreTitle": "Summary",
+    "descriptionList": [
+      "I am working on improving the candidate's experience during the job search time.",
+      "I work every day with Pug, SCSS, JavaScript , Remix and React with JavaScript and TypeScript to create amazing Apps."
+    ],
+    "downloadButtonLabe;": "Download my CV"
+  },
+  "skills": {
+    "sectionTitle": "Tech I love to work with",
+    "descriptionListSkills": [
+      "I am working on improving the candidate's experience during the job search time.",
+      "I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps."
+    ],
+    "legend": {
+      "title": "Legend",
+      "itemList": [
+        {
+          "color": "abbey",
+          "label": "Skills I love"
+        },
+        {
+          "color": "snowyMint",
+          "label": "Skills I'm good at"
+        },
+        {
+          "color": "blueChalk",
+          "label": "Skills I'd love to gt better at"
+        }
+      ]
+    },
+    "skillTypeList": [
+      {
+        "category": "Front-end",
+        "skillList": [
+          {
+            "color": "hawkesBlue",
+            "label": "HTML"
+          },
+          {
+            "color": "grey",
+            "label": "CSS"
+          },
+          {
+            "color": "blueChalk",
+            "label": "JavaScript"
+          },
+          {
+            "color": "snowyMint",
+            "label": "SASS"
+          },
+          {
+            "color": "orange",
+            "label": "React"
+          },
+          {
+            "color": "foam",
+            "label": "Pug"
+          },
+          {
+            "color": "blueChalk",
+            "label": "Redux"
+          },
+          {
+            "color": "hawkesBlue",
+            "label": "Remix"
+          }
+        ]
+      },
+      {
+        "category": "Back-end",
+        "skillList": [
+          {
+            "color": "blueChalk",
+            "label": "NodeJS"
+          },
+          {
+            "color": "grey",
+            "label": "Pug"
+          },
+          {
+            "color": "hawkesBlue",
+            "label": "CLI"
+          },
+          {
+            "color": "foam",
+            "label": "Bash"
+          },
+          {
+            "color": "snowyMint",
+            "label": "Firebase"
+          },
+          {
+            "color": "blueChalk",
+            "label": "Webpack"
+          },
+          {
+            "color": "red",
+            "label": "Gulp"
+          },
+          {
+            "color": "hawkesBlue",
+            "label": "API"
+          }
+        ]
+      },
+      {
+        "category": "Presentation",
+        "skillList": [
+          {
+            "color": "hawkesBlue",
+            "label": "Live coaching"
+          },
+          {
+            "color": "grey",
+            "label": "Live events"
+          },
+          {
+            "color": "hawkesBlue",
+            "label": "HTML"
+          },
+          {
+            "color": "foam",
+            "label": "Sass"
+          },
+          {
+            "color": "snowyMint",
+            "label": "React"
+          },
+          {
+            "color": "blueChalk",
+            "label": "Redux"
+          },
+          {
+            "color": "red",
+            "label": "Remix"
+          }
+        ]
+      }
+    ]
+  },
+  "connect": {
+    "sectionTitle": "Let's connect",
+    "avatarPath": "",
+    "socialList": [
+      {
+        "iconita": "github",
+        "title": "Github",
+        "description": "There are more projects where you can see me working with HTML, CSS, JavaScript..",
+        "label": "",
+        "link": ""
+      },
+      {
+        "iconita": "codewars",
+        "title": "Codewars",
+        "description": "You can see more of my progress here.",
+        "label": "",
+        "link": ""
+      },
+      {
+        "iconita": "instagram",
+        "title": "Instagram",
+        "description": "Instagram is where you can find me most active when I am off.",
+        "label": "",
+        "link": ""
+      },
+      {
+        "iconita": "skype",
+        "title": "Skype",
+        "description": "Here is my Skype account.",
+        "label": "",
+        "link": ""
+      }
+    ]
+  },
+  "experience": {
+    "sectionTtile": "Experience",
+    "jobList": [
+      {
+        "jobTitle": "",
+        "workingPeriod": "",
+        "companyName": "",
+        "moreDetails": ""
+      }
+    ]
+  },
+  "openSource": {
+    "sectionTitle": "Open Source",
+    "stats": {
+      "statsTitle": "Stats",
+      "statsList": [
+        {
+          "statsIcon": "github",
+          "statsDescription": [
+            "Contributions last year: over 185",
+            "Longest streak: 5 days"
+          ]
+        },
+        {
+          "statsIcon": "codewars",
+          "statsDescription": ["Rank: 8kyu", "Honor: 15"]
+        },
+        {
+          "statsIcon": "stackoverflow",
+          "statsDescription": [
+            "Top: ---",
+            "Reputation: 1",
+            "People reached: 0",
+            "Answers: 0"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "projectSource": "GitHub projects",
+      "projectList": [
+        {
+          "projectTitle": "my-cv-v5-step-by-step-starter",
+          "skillsGained": [
+            {
+              "skillName": "JavaScript",
+              "percentage": "77.6%",
+              "color": "yellow"
+            },
+            {
+              "skillName": "SCSS",
+              "percentage": "16.1%",
+              "color": "pink"
+            },
+            {
+              "skillName": "Pug",
+              "percentage": "5.5%",
+              "color": "jaffa"
+            }
+          ],
+          "projectStats": [
+            {
+              "projectStatIcon": "commits",
+              "projectStatInfo": "Commits: 11"
+            },
+            {
+              "projectStatIcon": "stars",
+              "projectStatInfo": "Stars: ---"
+            },
+            {
+              "projectStatIcon": "forks",
+              "projectStatInfo": "Forks: ---"
+            }
+          ],
+          "projectInfo": "Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, JavaScript and ReactJS",
+          "projectIcon": {
+            "mandatoryIcon": "info",
+            "extraIcon": [
+              {
+                "icon": "github",
+                "link": "https://github.com/antonia2203/my-cv-v5-step-by-step-starter"
+              },
+              {
+                "icon": "youtube",
+                "link": "https://youtube.com"
+              }
+            ]
+          },
+          "projectLink": {
+            "icon": "github",
+            "description": "antonia2203/my-cv-v5-step-by-step-starter",
+            "link": "https://github.com/antonia2203/my-cv-v5-step-by-step-starter"
+          }
+        },
+        {
+          "projectTitle": "my-cv-v5-step-by-step-starter",
+          "skillsGained": [
+            {
+              "skillName": "JavaScript",
+              "percentage": "77.6%",
+              "color": "yellow"
+            },
+            {
+              "skillName": "SCSS",
+              "percentage": "16.1%",
+              "color": "pink"
+            },
+            {
+              "skillName": "Pug",
+              "percentage": "5.5%",
+              "color": "jaffa"
+            }
+          ],
+          "projectStats": [
+            {
+              "projectStatIcon": "commits",
+              "projectStatInfo": "Commits: 11"
+            },
+            {
+              "projectStatIcon": "stars",
+              "projectStatInfo": "Stars: ---"
+            },
+            {
+              "projectStatIcon": "forks",
+              "projectStatInfo": "Forks: ---"
+            }
+          ],
+          "projectInfo": "Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, JavaScript and ReactJS",
+          "projectIcon": {
+            "mandatoryIcon": "info",
+            "extraIcon": [
+              {
+                "icon": "github",
+                "link": "https://github.com/antonia2203/my-cv-v5-step-by-step-starter"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "portofolio": {
+    "sectionTitle": "Portofolio",
+    "subtitle": "Recent",
+    "recentPortofolioList": [
+      {
+        "title": "my-cv-v5-step-by-step-starter",
+        "skills": "HTML, CSS, JavaScript, React",
+        "link": "https://github.com/antonia2203/my-cv-v5-step-by-step-starter",
+        "image": "",
+        "linkIcon": ""
+      }
+    ]
+  },
+  "recommendations": {
+    "sectionTitle": "Recommendations",
+    "recommendationsList": [
+      {
+        "image": "asset/image/marian.jpg",
+        "personName": "Marian Zburlea",
+        "jobTitle": "Career Mentor",
+        "review": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    ]
+  },
+  "reviews": {
+    "sectionTitle": "Reviews",
+    "reviewList": [
+      {
+        "image": "",
+        "personName": "",
+        "date": "",
+        "review": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    ]
+  },
+  "proud": {
+    "sectionTitle": "I'm proud",
+    "subtitle": "Awards and Achievements",
+    "proudList": [
+      {
+        "date": "",
+        "award": "",
+        "location": ""
+      }
+    ]
+  }
+}
