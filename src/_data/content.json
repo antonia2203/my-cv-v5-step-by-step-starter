@@ -8,7 +8,9 @@
       "I am working on improving the candidate's experience during the job search time.",
       "I work every day with Pug, SCSS, JavaScript , Remix and React with JavaScript and TypeScript to create amazing Apps."
     ],
-    "downloadButtonLabel": "Download my CV"
+    "headerOrange": "Continue reading so you can get to know how I can help you help me help you so everytone gets helped",
+    "downloadButtonLabel": "Download my CV",
+    "subscribeButtonLabel": "Subscribe"
   },
   "skills": {
     "sectionTitle": "Tech I love to work with",

@@ -1,21 +1,25 @@
 @import "variable";
 
 @font-face {
-  font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7bmn9');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7bmn9#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?7bmn9') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?7bmn9') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?7bmn9#icomoon') format('svg');
+  font-family: "#{$icomoon-font-family}";
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7bmn9");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7bmn9#iefix")
+      format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?7bmn9")
+      format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?7bmn9")
+      format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?7bmn9#icomoon")
+      format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="cv-"], [class*=" cv-"] {
+[class^="cv-"],
+[class*=" cv-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: '#{$icomoon-font-family}' !important;
-  speak: never;
+  font-family: "#{$icomoon-font-family}" !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -27,67 +31,67 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-stackoverflow:before {
+.cv-stackoverflow:before {
   content: $cv-stackoverflow;
 }
-.icon-twitter:before {
+.cv-twitter:before {
   content: $cv-twitter;
 }
-.icon-instagram:before {
+.cv-instagram:before {
   content: $cv-instagram;
 }
-.icon-linkedin:before {
+.cv-linkedin:before {
   content: $cv-linkedin;
 }
-.icon-facebook2:before {
+.cv-facebook2:before {
   content: $cv-facebook2;
 }
-.icon-codewars:before {
+.cv-codewars:before {
   content: $cv-codewars;
   color: #ad2c27;
 }
-.icon-arrow-down:before {
+.cv-arrow-down:before {
   content: $cv-arrow-down;
 }
-.icon-email:before {
+.cv-email:before {
   content: "\e902";
 }
-.icon-github:before {
+.cv-github:before {
   content: "\e903";
 }
-.icon-cross:before {
+.cv-cross:before {
   content: "\e904";
 }
-.icon-menu:before {
+.cv-menu:before {
   content: "\e905";
 }
-.icon-home:before {
+.cv-home:before {
   content: "\e906";
 }
-.icon-youtube:before {
+.cv-youtube:before {
   content: "\e907";
 }
-.icon-cup-half:before {
+.cv-cup-half:before {
   content: "\e908";
 }
-.icon-medal:before {
+.cv-medal:before {
   content: "\e909";
 }
-.icon-trophy-2:before {
+.cv-trophy-2:before {
   content: "\e90a";
 }
-.icon-trophy-1:before {
+.cv-trophy-1:before {
   content: "\e90b";
 }
-.icon-trophy-3:before {
+.cv-trophy-3:before {
   content: "\e90c";
 }
-.icon-cup-full:before {
+.cv-cup-full:before {
   content: "\e90d";
 }
-.icon-piggy-bank:before {
+.cv-piggy-bank:before {
   content: "\e914";
 }
-.icon-chevron-down:before {
+.cv-chevron-down:before {
   content: "\e90e";
 }

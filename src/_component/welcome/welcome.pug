@@ -1,29 +1,50 @@
 - 
-  var {sectionTitle , nameTitle , jobTitle , moreTitle , descriptionList , downloadButtonLabel}  = data.content.welcome
+  var {sectionTitle , nameTitle , jobTitle , moreTitle , descriptionList , downloadButtonLabel, headerOrange, subscribeButtonLabel}  = data.content.welcome
 include ../header/header
+include ../layout/base
 
-.text 
-  .text__info-box
+block awesome-content
+  .text 
+    .text__info-box
+      button.buton__normal--transparent
+        .icoanaButon
+          a(href="https://www.youtube.com/watch?v=MWBSNxZsFEQ" title="WoWDoP" target="_blank")
+            .cv-youtube
 
-    .text__info-box
-      .text__title Mihai Antonia
+      .text__info-box
+        .text__title= nameTitle
 
-    .text__info-box
-      .text__sub-title Web Developer
-  
-  .text__gap-8
-    .text__info-box
-      .text__section-title Summary 
+      .text__info-box
+        .text__sub-title= jobTitle
 
-    .text__info-box
-      .text__descriere I am working on improving the candidate's experience during the job search time.
-      .text__descriere I work every day with Remix, React, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps.
+      button.buton__normal--verde
+        .icoanaButon 
+          .cv-arrow-down
+        span= downloadButtonLabel
+    .divider
 
-  .text__gap-8
+    .header--wrapper-orange
+      .header-orange 
+        .header__title= headerOrange
+    
     .text__info-box
-      .text__section-title Contact
+      .text__section-title= moreTitle
 
-    .text__info-box
-      .text__descriere I am working on improving the candidate's experience during the job search time.
-      .text__descriere I work every day with Remix, React, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps.
+      .text__gap-8
+        each continut in descriptionList
+          .text__descriere= continut 
+
+      button.buton__normal--rosu 
+        .icoanaButon 
+          .cv-youtube 
+        span= subscribeButtonLabel
+    .divider
+
+    .text__gap-8
+      .text__info-box
+        .text__section-title Contact
+
+      .text__info-box
+        .text__descriere I am working on improving the candidate's experience during the job search time.
+        .text__descriere I work every day with Remix, React, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps.
 
