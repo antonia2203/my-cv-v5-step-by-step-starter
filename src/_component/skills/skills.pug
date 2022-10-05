@@ -1,0 +1,22 @@
+- 
+  var {sectionTitle, moreTitle , descriptionListSkills , legend , title , itemList , color , label , skillTypeList , category } = data.content.skills
+include ../header/header 
+include ../layout/base 
+
+block awesome-content
+  .text 
+    .text__info-box 
+      button.buton__normal--transparent 
+        .icoanaButon 
+          a(href="https://www.youtube.com/watch?v=7_lMIRk3rnI" title="" target="_blank")
+            .cv-youtube
+
+    .text__info-box 
+      .text__section-title= moreTitle
+
+    .text__gap-8 
+      each continut in descriptionList 
+        .text__desscriere= continut
+
+    .text__gap-8
+      .text__section-title=

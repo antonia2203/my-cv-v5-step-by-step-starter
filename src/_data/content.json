@@ -14,6 +14,7 @@
   },
   "skills": {
     "sectionTitle": "Tech I love to work with",
+    "moreTitle": "Skills",
     "descriptionListSkills": [
       "I am working on improving the candidate's experience during the job search time.",
       "I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps."
@@ -22,7 +23,7 @@
       "title": "Legend",
       "itemList": [
         {
-          "color": "abbey",
+          "color": "hawkesBlue",
           "label": "Skills I love"
         },
         {
