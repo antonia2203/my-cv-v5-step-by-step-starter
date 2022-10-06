@@ -18,5 +18,13 @@ block awesome-content
       each continut in descriptionList 
         .text__desscriere= continut
 
-    .text__gap-8
-      .text__section-title=
+      .wrap 
+        each skillList in skillTypeList
+          .wrap 
+            .title= category.title
+
+
+      button.buton__normal--rosu 
+        .icoana 
+          .cv-whatsapp  
+        | Let`s chat!
